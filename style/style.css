@@ -75,8 +75,8 @@ select {
   background-color: #114e46;
 }
 
-.banner {
-  height: 200px;
+.banner-box {
+  min-height: 450px;
   background-color: #ccc;
 }
 .grid-2-columns {
