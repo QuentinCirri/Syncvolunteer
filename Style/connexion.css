@@ -1,12 +1,10 @@
 * {
-    padding: 0 auto;
+    padding: 0 ;
     margin: 0 auto;
-    
+    background-color: darkcyan;
 }
-body {
-    background-image: url(../img/Group_13.jpg);
-    background-position: center;
-    width:100vw;
-    height: 100vw;
-
+/*Pour quand le background aura été modifié
+.background-box {
+    object-fit: contain;
 }
+*/
