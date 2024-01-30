@@ -1,6 +1,8 @@
-body {
-  background-image: url(../img/background.jpg);
+* {
+  margin: auto;
+  padding: 0;
 }
+
 ul {
   list-style-type: none;
   display: flex;
