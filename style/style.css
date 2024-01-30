@@ -19,21 +19,33 @@
   z-index: -1;
 }
 
+label {
+  font-family: sans-serif;
+  font-size: 1rem;
+  padding-right: 10px;
+}
+
+select {
+  width: 20px;
+  font-size: 0.9rem;
+  padding: 2px 5px;
+  background-color: #114e46;
+  position: absolute;	
+}
 ul {
   list-style-type: none;
   display: flex;
   float: right;
 }
 li {
-  margin-top: 15px;
   margin-left: 40px;
 }
 .barn {
+  background-color: #35605a;
   font-size: 18px;
   color: white;
   font-weight: 500;
   text-decoration: none;
-  background-color: #35605a;
   border: 2px solid #114e46;
   width: auto;
   font-family: Arial, Helvetica, sans-serif;
