@@ -29,8 +29,7 @@ select {
   width: 20px;
   font-size: 0.9rem;
   padding: 2px 5px;
-  background-color: #114e46;
-  position: absolute;	
+  background-color: #114e46;	
 }
 ul {
   list-style-type: none;
@@ -38,6 +37,7 @@ ul {
   float: right;
 }
 li {
+  margin-top: 15px;
   margin-left: 40px;
 }
 .barn {
@@ -50,6 +50,24 @@ li {
   width: auto;
   font-family: Arial, Helvetica, sans-serif;
   position: relative;
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+label {
+  font-family: sans-serif;
+  font-size: 1rem;
+  padding-right: 10px;
+}
+
+select {
+  font-size: 0.9rem;
+  padding: 2px 5px;
+  background-color: #114e46;
 }
 .grid-2-columns {
   margin: 5rem auto;
