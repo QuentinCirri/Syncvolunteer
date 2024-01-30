@@ -31,15 +31,6 @@ select {
   padding: 2px 5px;
   background-color: #114e46;	
 }
-ul {
-  list-style-type: none;
-  display: flex;
-  float: right;
-}
-li {
-  margin-top: 15px;
-  margin-left: 40px;
-}
 .barn {
   background-color: #35605a;
   font-size: 18px;
@@ -57,6 +48,20 @@ li {
   align-items: center;
   justify-content: space-between;
 }
+ul {
+  list-style-type: none;
+  display: flex;
+  float: right;
+}
+li {
+  margin-top: 15px;
+  margin-left: 40px;
+}
+.nav-bar a {
+  display: flex;
+  align-items: center;
+}
+
 
 label {
   font-family: sans-serif;
