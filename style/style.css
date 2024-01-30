@@ -74,6 +74,11 @@ select {
   padding: 2px 5px;
   background-color: #114e46;
 }
+
+.banner {
+  height: 200px;
+  background-color: #ccc;
+}
 .grid-2-columns {
   margin: 5rem auto;
   width: min(90%, 75rem);
