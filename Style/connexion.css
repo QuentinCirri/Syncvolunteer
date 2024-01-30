@@ -8,3 +8,12 @@
     object-fit: contain;
 }
 */
+.navbar {
+    position: relative;
+    background-color: greenyellow;
+    justify-content: center;
+    align-items: center;
+}
+nav {
+    color: #fff;
+}
