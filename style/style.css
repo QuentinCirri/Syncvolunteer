@@ -2,18 +2,27 @@
   margin: auto;
   padding: 0;
 }
-bakground-box {
+.bakground-box {
   width: 100vw;
   height: 100vh;
-  position: static;
-  object-fit: contain;
+  position: relative;
+  overflow: hidden; 
+}
+
+.background-blue {
+  width: 100%; /* Ajustez la largeur selon vos besoins */
+  height:200%; /* Ajustez la hauteur selon vos besoins */
+  object-fit: cover; /* Cela garantit que l'image couvre la totalité de la div */
+  position: fixed; /* Fixe l'image par rapport à la fenêtre */
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
 
 ul {
   list-style-type: none;
   display: flex;
   float: right;
-  background-color: #35605a;
 }
 li {
   margin-top: 15px;
@@ -24,7 +33,9 @@ li {
   color: white;
   font-weight: 500;
   text-decoration: none;
-
+  background-color: #35605a;
+  border: 2px solid #114e46;
+  width: auto;
   font-family: Arial, Helvetica, sans-serif;
   position: relative;
 }
