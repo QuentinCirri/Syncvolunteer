@@ -2,6 +2,12 @@
   margin: auto;
   padding: 0;
 }
+bakground-box {
+  width: 100vw;
+  height: 100vh;
+  position: static;
+  object-fit: contain;
+}
 
 ul {
   list-style-type: none;
