@@ -33,22 +33,18 @@ select {
   color: white;
   font-weight: 500;
   text-decoration: none;
-  border: 2px solid #114e46;
   width: auto;
   font-family: Arial, Helvetica, sans-serif;
   position: relative;
 }
 
-.image-banner {
-  width: auto;
-  height: auto;
-}
 .logo-box img {
   width: 120px;
   height: 110px;
 }
 .nav-bar {
   display: flex;
+  position: sticky;
   width: 100vw;
   height: 110px;
   align-items: center;
@@ -95,7 +91,7 @@ select {
 }
 .banner-carousel img {
   width: 100vw; /* Pour occuper toute la largeur disponible */
-  height: 75%; /* Pour occuper toute la hauteur disponible */
+  height: 440px; /* Pour occuper toute la hauteur disponible */
   object-fit: cover; /* Pour maintenir les proportions de l'image et la recadrer si nécessaire */
 }
 
