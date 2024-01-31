@@ -40,8 +40,8 @@ select {
 }
 
 .logo-box img {
-  width: 150px;
-  height: 150px;
+  width: 80px;
+  height: 80px;
 }
 .nav-bar {
   display: flex;
@@ -115,7 +115,7 @@ select {
 
 .footer-column {
   color: white;
-  /* Ajoutez d'autres styles CSS selon vos besoins */
+  
 }
 
 .logo-social-column {
