@@ -106,13 +106,12 @@ select {
 }
 
 .logo-social-column {
-  grid-column: span 1; /* Cette colonne occupe la largeur de 4 colonnes */
+  grid-column: span 1;
 }
 
-/* Ajoutez des styles spécifiques pour les liens ou ajustez selon vos besoins */
 .footer-column a {
   display: block; /* Pour empêcher les liens de s'étendre sur toute la largeur */
-  margin-top: 5px; /* Espacement entre les liens */
+  margin-top: 7%; /* Espacement entre les liens */
 }
 
 footer {
