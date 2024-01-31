@@ -5,12 +5,12 @@
 .bakground-box {
   width: 100vw;
   position: relative;
-  overflow: hidden; 
+  overflow: hidden;
 }
 
 .background-blue {
   width: 100%; /* Ajustez la largeur selon vos besoins */
-  height:200%; /* Ajustez la hauteur selon vos besoins */
+  height: 200%; /* Ajustez la hauteur selon vos besoins */
   object-fit: cover; /* Cela garantit que l'image couvre la totalité de la div */
   position: fixed; /* Fixe l'image par rapport à la fenêtre */
   top: 0;
@@ -22,7 +22,7 @@ select {
   width: 20px;
   font-size: 0.9rem;
   padding: 2px 5px;
-  background-color: #114e46;	
+  background-color: #114e46;
 }
 .barn {
   background-color: #35605a;
@@ -56,7 +56,6 @@ li {
   color: #fff;
 }
 
-
 label {
   font-family: sans-serif;
   font-size: 1rem;
@@ -77,15 +76,12 @@ select {
 .banner-carousel img {
   max-width: 50%;
   max-height: 50%;
-  
 }
-
 
 .slick-slide img {
   width: 100%;
   height: auto;
 }
-
 
 .grid-2-columns {
   margin: 5rem auto;
@@ -117,6 +113,7 @@ select {
 footer {
   background-color: #114e46;
   color: white;
+  font-family: Arial, Helvetica, sans-serif;
 }
 hr {
   border: solid;
