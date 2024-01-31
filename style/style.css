@@ -1,10 +1,10 @@
-* {
+html, body {
+  width: 100vw;
   margin: 0;
   padding: 0;
 }
-
 body {
-  width: 100vw;
+  min-width: 600px; /* Vous pouvez ajuster cette valeur en fonction de vos besoins */
 }
 .bakground-box {
   position: relative;
@@ -42,7 +42,7 @@ select {
 .nav-bar {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 ul {
   list-style-type: none;
@@ -117,9 +117,13 @@ select {
 }
 
 footer {
+  position: fixed;
   background-color: #114e46;
+  left: 0;
+  bottom: 0;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
 }
 hr {
   border-top: -2px solid white;
