@@ -121,22 +121,12 @@ main {
   text-align: center;
 }
 
-.section-one img,
-.section-two img {
-  max-width: 100%; /* Les images ne dépasseront pas la largeur de leur conteneur */
+.section-one img,.section-two img {
+  max-width: 100%;
+  border: #35605a solid 2px;
+  border-radius: 50px;
 }
 
-
-
-
-
-.grid-2-columns {
-  margin: 5rem auto;
-  width: min(90%, 75rem);
-  display: grid;
-  grid-auto-flow: column;
-  gap: 1em;
-}
 .footer-columns {
   display: grid;
   justify-content: space-between;
@@ -157,7 +147,7 @@ main {
 
 .footer-column a {
   display: block; /* Pour empêcher les liens de s'étendre sur toute la largeur */
-  margin-top: 25px; /* Espacement entre les liens */
+  margin-top: 25px;
 }
 
 footer {
