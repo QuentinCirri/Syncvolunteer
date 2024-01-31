@@ -44,8 +44,8 @@ select {
 }
 .nav-bar {
   display: flex;
-  position: sticky;
   width: 100vw;
+  max-width: 100%;
   height: 110px;
   align-items: center;
   justify-content: space-around;
@@ -66,7 +66,6 @@ li {
 }
 
 main {
-  max-width: 100%;
   margin: 0 auto;
   display: flex;
   align-items: flex-start;
@@ -86,19 +85,30 @@ select {
 }
 
 .banner-box {
-  min-height: 450px;
-  min-width: 50%;
-}
-.banner-carousel img {
-  width: 100vw; /* Pour occuper toute la largeur disponible */
-  height: 440px; /* Pour occuper toute la hauteur disponible */
-  object-fit: cover; /* Pour maintenir les proportions de l'image et la recadrer si nécessaire */
+  width: 100%;
+  height: 450px;
+  
 }
 
 
 .slick-slide img {
-  width: 100%;
+  width: 100vw;
   height: auto;
+  object-fit: cover;
+}
+.banner-carousel {
+  width: 100%;
+}
+
+.banner-carousel .slick-slide {
+  width: 100%;
+}
+
+.banner-carousel .slick-slide img {
+  width: 100%;
+  height: 450px;
+  object-fit: fill;
+
 }
 
 .grid-2-columns {
