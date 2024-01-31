@@ -96,8 +96,7 @@ select {
 }
 .footer-columns {
   display: grid;
-  grid-template-columns: repeat(4, 1fr); /* 4 colonnes égales */
-  gap: 20px; /* Espacement entre les colonnes */
+  grid-template-columns: repeat(4, 1fr);
 }
 
 .footer-column {
@@ -119,7 +118,7 @@ footer {
   background-color: #114e46;
   color: white;
 }
-hr {
+h3 {
   border: solid;
   border-top: 5px solid white;
 }
