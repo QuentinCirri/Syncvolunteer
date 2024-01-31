@@ -97,6 +97,7 @@ select {
 .footer-columns {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 15%;
 }
 
 .footer-column {
@@ -105,7 +106,7 @@ select {
 }
 
 .logo-social-column {
-  grid-column: span 4; /* Cette colonne occupe la largeur de 4 colonnes */
+  grid-column: span 1; /* Cette colonne occupe la largeur de 4 colonnes */
 }
 
 /* Ajoutez des styles spécifiques pour les liens ou ajustez selon vos besoins */
@@ -118,7 +119,7 @@ footer {
   background-color: #114e46;
   color: white;
 }
-h3 {
+hr {
   border: solid;
   border-top: 5px solid white;
 }
