@@ -39,6 +39,10 @@ select {
   position: relative;
 }
 
+.logo-box img {
+  width: 450px;
+  height: 450px;
+}
 .nav-bar {
   display: flex;
   align-items: center;
