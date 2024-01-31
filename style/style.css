@@ -2,8 +2,11 @@
   margin: 0;
   padding: 0;
 }
-.bakground-box {
+
+body {
   width: 100vw;
+}
+.bakground-box {
   position: relative;
   overflow: hidden;
 }
@@ -94,6 +97,7 @@ select {
   display: grid;
   justify-content: space-between;
   align-items: baseline;
+  justify-items: center;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 15%;
 }
@@ -118,12 +122,13 @@ footer {
   font-family: Arial, Helvetica, sans-serif;
 }
 hr {
-  border: solid;
-  border-top: 5px solid white;
+  border-top: -2px solid white;
 }
 
-.term {
+.term a {
   color: white;
+  display: inline-block;
+  padding-left: 10px;
 }
 a {
   text-decoration: none;
