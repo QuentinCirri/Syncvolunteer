@@ -1,5 +1,5 @@
 * {
-  margin: auto;
+  margin: 0;
   padding: 0;
 }
 .bakground-box {
@@ -92,6 +92,8 @@ select {
 }
 .footer-columns {
   display: grid;
+  justify-content: space-between;
+  align-items: baseline;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 15%;
 }
@@ -107,7 +109,7 @@ select {
 
 .footer-column a {
   display: block; /* Pour empêcher les liens de s'étendre sur toute la largeur */
-  margin-top: 7%; /* Espacement entre les liens */
+  margin-top: 25px; /* Espacement entre les liens */
 }
 
 footer {
