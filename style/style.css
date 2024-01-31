@@ -66,6 +66,9 @@ li {
 main {
   max-width: 100%;
   margin: 0 auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
 }
 label {
   font-family: sans-serif;
