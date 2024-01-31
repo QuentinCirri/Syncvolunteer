@@ -86,17 +86,6 @@ select {
   height: auto;
 }
 
-.main {
-  display: flex;
-  justify-content: space-between;
-  margin: 0 auto;
-}
-
-.section-one, .section-two {
-  display: flex;
-  justify-content: space-between;
-  margin: 20px; /* Ajoutez une marge selon vos besoins */
-}
 
 .grid-2-columns {
   margin: 5rem auto;
@@ -104,6 +93,26 @@ select {
   display: grid;
   grid-auto-flow: column;
   gap: 1em;
+}
+.footer-columns {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 colonnes égales */
+  gap: 20px; /* Espacement entre les colonnes */
+}
+
+.footer-column {
+  color: white;
+  /* Ajoutez d'autres styles CSS selon vos besoins */
+}
+
+.logo-social-column {
+  grid-column: span 4; /* Cette colonne occupe la largeur de 4 colonnes */
+}
+
+/* Ajoutez des styles spécifiques pour les liens ou ajustez selon vos besoins */
+.footer-column a {
+  display: block; /* Pour empêcher les liens de s'étendre sur toute la largeur */
+  margin-top: 5px; /* Espacement entre les liens */
 }
 
 footer {
