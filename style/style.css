@@ -1,10 +1,10 @@
 html, body {
-  width: 100vw;
+  width: 100%;
   margin: 0;
   padding: 0;
 }
 body {
-  min-width: 600px; /* Vous pouvez ajuster cette valeur en fonction de vos besoins */
+  width: 100%;
 }
 .bakground-box {
   position: relative;
@@ -59,6 +59,10 @@ li {
   color: #fff;
 }
 
+main {
+  max-width: 100%;
+  margin: 0 auto;
+}
 label {
   font-family: sans-serif;
   font-size: 1rem;
