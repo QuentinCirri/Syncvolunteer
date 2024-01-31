@@ -39,12 +39,18 @@ select {
   position: relative;
 }
 
+.image-banner {
+  width: auto;
+  height: auto;
+}
 .logo-box img {
-  width: 80px;
-  height: 80px;
+  width: 120px;
+  height: 110px;
 }
 .nav-bar {
   display: flex;
+  width: 100vw;
+  height: 110px;
   align-items: center;
   justify-content: space-around;
 }
@@ -88,9 +94,11 @@ select {
   min-width: 50%;
 }
 .banner-carousel img {
-  max-width: 50%;
-  max-height: 50%;
+  width: 100vw; /* Pour occuper toute la largeur disponible */
+  height: 75%; /* Pour occuper toute la hauteur disponible */
+  object-fit: cover; /* Pour maintenir les proportions de l'image et la recadrer si nécessaire */
 }
+
 
 .slick-slide img {
   width: 100%;
@@ -128,7 +136,7 @@ select {
 }
 
 footer {
-  position: fixed;
+  position: static;
   background-color: #114e46;
   left: 0;
   bottom: 0;
