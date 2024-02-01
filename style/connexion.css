@@ -87,6 +87,7 @@ footer {
   background-color: #114e46;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
 }
 hr {
   border-top: -2px solid white;
