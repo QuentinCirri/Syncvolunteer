@@ -1,6 +1,6 @@
 function afficherFormulaire() {
     var formulaire = document.getElementById("formulaireInscription");
-    formulaire.style.display = "flex";
+    formulaire.style.display = "block";
 }
 document.addEventListener('DOMContentLoaded', function() {
   
