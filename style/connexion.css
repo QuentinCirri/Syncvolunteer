@@ -67,6 +67,7 @@ li {
   justify-items: center;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 15%;
+  width: 100vw;
 }
 
 .footer-column {
