@@ -79,14 +79,31 @@ select {
   background-color: #114e46;
   color: white;
 }
+main {
+  width: auto;
+}
+
+label {
+  display: block;
+  font:
+    1rem 'Fira Sans',
+    sans-serif;
+}
+
+input,
+label {
+
+  margin: 0.4rem 0;
+}
+
 .calendar-grid {
   display: grid;
-  grid-template-columns: repeat(7, 1fr); /* 7 colonnes égales */
-  grid-template-rows: repeat(4, 1fr); /* 4 rangées égales */
-  gap: 8px; 
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(5, 1fr); /* 5 rangées pour inclure les jours de la semaine et les jours du mois */
+  gap: 8px;
   max-height: max-content;
   max-width: 1000px;
-  margin: 20px auto; /* Centrer la grille */
+  margin: 20px auto;
 }
 
 #title-days {
@@ -100,7 +117,7 @@ select {
   border: 1px solid #35605a;
 }
 footer {
-  
+  position: static;
   background-color: #114e46;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
