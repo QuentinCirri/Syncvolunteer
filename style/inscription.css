@@ -11,7 +11,7 @@
 .background-blue {
   width: 100%; /* Ajustez la largeur selon vos besoins */
   height: 200%; /* Ajustez la hauteur selon vos besoins */
-  object-fit: cover; 
+  object-fit: cover;
   position: fixed; /* Fixe l'image par rapport à la fenêtre */
   top: 0;
   left: 0;
@@ -68,7 +68,7 @@ main {
 }
 button {
   display: grid;
-  background-color:#35605a;
+  background-color: #35605a;
   color: white;
   padding: 10px 20px;
   border: none;
@@ -81,14 +81,14 @@ button {
   max-width: 400px;
   margin: 20px auto;
   padding: 20px;
-  background-color: #D8E4FF;
+  background-color: #d8e4ff;
   border: 1px solid #35605a;
   border-radius: 8px;
   font-family: Arial, sans-serif;
 }
 
 #formulaireInscription h2 {
-  color:#35605a;
+  color: #35605a;
   display: flex;
   margin-bottom: 20px;
   justify-content: center;
@@ -131,7 +131,6 @@ button[type="submit"] {
   border-radius: 4px;
 }
 
-
 footer {
   bottom: 0;
   left: 0;
@@ -139,6 +138,7 @@ footer {
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   width: 100%;
+  position: absolute;
 }
 .footer-columns {
   display: grid;
