@@ -63,14 +63,63 @@ li {
 }
 
 button {
+  display: grid;
   background-color:#35605a;
   color: white;
   padding: 10px 20px;
   border: none;
   cursor: pointer;
+  font-family: Arial, sans-serif;
 }
 
+#formulaireInscription {
+  display: none;
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #D8E4FF;
+  border: 1px solid #35605a;
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+}
 
+#formulaireInscription h2 {
+  color:#35605a;
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  display: grid;
+  gap: 10px;
+  font-family: Arial, sans-serif;
+}
+
+label {
+  display: block;
+  font-weight: 600;
+  color: #35605a;
+  font-family: Arial, sans-serif;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  margin-top: 4px;
+  margin-bottom: 8px;
+}
+
+button[type="submit"] {
+  background-color: #35605a;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
 
 
 .footer-columns {
@@ -97,6 +146,9 @@ button {
 }
 
 footer {
+  position: sticky;
+  bottom: 0;
+  left: 0;
   background-color: #114e46;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
