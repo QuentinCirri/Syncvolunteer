@@ -41,7 +41,7 @@ select {
 }
 .nav-bar {
   display: grid;
-  grid-template-columns: repeat(7, 1fr);
+  grid-template-columns: repeat(11, 1fr);
   align-items: center;
   justify-items: center;
 }
