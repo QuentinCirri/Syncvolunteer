@@ -78,6 +78,7 @@ footer {
   background-color: #114e46;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
+  bottom: 0;
 }
 .footer-columns {
   display: grid;
