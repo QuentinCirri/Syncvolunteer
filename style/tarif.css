@@ -75,16 +75,16 @@ main {
 }
 .grid-container {
   display: grid;
-  grid-template-columns: 600px 600px 600px;
+  grid-template-columns: 33% 33% 33%;
 }
 .section-one {
-  text-align: left;
+  text-align: center;
 }
 .section-two {
-  text-align: left;
+  text-align: center;
 }
 .section-three {
-  text-align: left;
+  text-align: center;
 }
 footer {
   bottom: 0;
