@@ -110,9 +110,11 @@ p {
   background-color: #d8e4ff;
   line-height: 2em;
   color: black;
+  border-radius: 12px;
 }
 .section-two ol {
   background-color: #d8e4ff;
+  border-radius: 12px;
 }
 
 .section-one,
