@@ -6,5 +6,12 @@ document.addEventListener('DOMContentLoaded', function() {
       arrows: false
   });
 });
-
   
+var tarifButton = document.querySelector('.renvoi-tarif');
+
+    if (tarifButton) {
+      tarifButton.addEventListener('click', function() {
+        // Rediriger vers la page tarif.html
+        window.location.href = '../page/tarif.html';
+      });
+    }
