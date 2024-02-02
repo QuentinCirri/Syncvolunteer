@@ -78,8 +78,8 @@ select {
 }
 
 .slick-slide img {
-  width: 120em;
-  height: 33em;
+  width: 100%;
+  height: 500px;
   object-fit: contain;
 }
 .banner-carousel {
