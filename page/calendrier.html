@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calendrier</title>
     <link rel="stylesheet" href="../style/calendrier.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.9.0/fullcalendar.min.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.9.0/fullcalendar.min.js"></script>
+
   </head>
   <body>
     <header>
@@ -23,8 +28,8 @@
             /></a>
           </div>
           
-          <a href="#">Tarification</a>
-          <a href="#">Contact</a>
+          <a href="../page/tarif.html">Tarification</a>
+          <a href="../page/contact.html">Contact</a>
           <a href="#"><img src="https://cdn.discordapp.com/attachments/1192471413869793332/1202622580888969216/VectorclocheNB.png?ex=65ce208e&is=65bbab8e&hm=4825b6f878358fba9668ed4025d1927b5c6fd3a9ed037f1ff6ee58dafeac9d9f&" alt=""></a>
           
           <label for="Langues-select">Langues</label>
@@ -44,7 +49,10 @@
         <h2>Renseigner votre disponibilité pour le calendrier de l'association :</h2>
         <label for="start">Choisir date :</label>
         <input type="date" id="start" name="trip-start" value="2018-07-22" min="2024-01-01" max="2025-12-31" />
-      <div class="calendar-grid">
+        <div id="calendar">
+          
+        </div> <!-- Ajoutez cette ligne pour la div du calendrier -->
+        <div class="calendar-grid">
             <div class="background-calender-box" id="title-days">Lundi</div>
             <div class="background-calender-box" id="title-days">Mardi</div>
             <div class="background-calender-box" id="title-days">Mercredi</div>

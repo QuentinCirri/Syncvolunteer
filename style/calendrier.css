@@ -44,9 +44,6 @@ select {
   grid-template-columns: repeat(7, 1fr);
   align-items: center;
   justify-items: center;
-
-
-
   width: 100vw;
   max-width: 100%;
   height: 110px;
@@ -96,6 +93,13 @@ label {
   margin: 0.4rem 0;
 }
 
+#calendar {
+  width: 100%; /* ou une largeur fixe selon vos besoins */
+  margin: 20px auto; /* marge et centrage du calendrier */
+  background-color: #fff; /* couleur de fond du calendrier */
+  border-radius: 8px; /* coins arrondis */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* ombre légère */
+}
 .calendar-grid {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
