@@ -107,12 +107,13 @@ main {
 }
 
 p {
-  background-color: #35605a;
+  background-color: #d8e4ff;
+  line-height: 2em;
+  color: black;
 }
- .section-two ol {
-  background-color: #35605a;
- }
-
+.section-two ol {
+  background-color: #d8e4ff;
+}
 
 .section-one,
 .section-two {
