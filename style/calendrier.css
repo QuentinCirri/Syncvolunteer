@@ -1,6 +1,13 @@
 body {
-  width: 100%;
-  margin: 0;
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+* {
+  margin: 0 auto;
   padding: 0;
 }
 .bakground-box {
@@ -30,10 +37,14 @@ select {
   color: white;
   font-weight: 500;
   text-decoration: none;
-  width: auto;
   font-family: Arial, Helvetica, sans-serif;
-  position: relative;
-}
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+ }
+  
 
 .logo-box img {
   width: 120px;
@@ -76,18 +87,19 @@ select {
   background-color: #114e46;
   color: white;
 }
+
 main {
-  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; /* Ajustez si nécessaire pour garantir que le contenu reste centré sur toute la hauteur de la vue. */
+  padding-top: 110px; /* Ajustez selon la hauteur de votre navbar. */
 }
 
+
 :root {
-  --primary-clr: #b38add;
-}
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  --primary-clr: 00120B;
 }
 /* nice scroll bar */
 ::-webkit-scrollbar {
@@ -102,15 +114,6 @@ main {
   border-radius: 50px;
 }
 
-body {
-  position: relative;
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-bottom: 30px;
-  background-color: #e2e1dc;
-}
 .container {
   position: relative;
   width: 1200px;
@@ -121,7 +124,7 @@ body {
   display: flex;
 
   border-radius: 10px;
-  background-color: #373c4f;
+  background-color: #00120B;
 }
 .left {
   width: 60%;
@@ -133,8 +136,8 @@ body {
   height: 100%;
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  align-content: stretch;
+  align-items: flex-start;
   color: #878895;
   border-radius: 5px;
   background-color: #fff;
@@ -177,7 +180,7 @@ body {
   color: var(--primary-clr);
 }
 .calendar .weekdays {
-  width: 100%;
+  width: 98%;
   height: 100px;
   display: flex;
   align-items: center;
@@ -195,11 +198,11 @@ body {
   justify-content: center;
 }
 .calendar .days {
-  width: 100%;
+  width: 98%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 0 20px;
+  padding: 0 8px;
   font-size: 1rem;
   font-weight: 500;
   margin-bottom: 20px;
@@ -284,7 +287,7 @@ body {
   align-items: center;
   justify-content: space-between;
   gap: 5px;
-  padding: 0 20px;
+  padding: 0 5px;
   margin-bottom: 20px;
   color: var(--primary-clr);
 }
@@ -336,9 +339,8 @@ body {
   flex-wrap: wrap;
   gap: 10px;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 0 40px;
-  padding-left: 70px;
   margin-top: 50px;
   margin-bottom: 20px;
   text-transform: capitalize;
@@ -373,7 +375,7 @@ body {
   padding: 0 20px;
   padding-left: 50px;
   color: #fff;
-  background: linear-gradient(90deg, #3f4458, transparent);
+  background: linear-gradient(90deg, #00120B, transparent);
   cursor: pointer;
 }
 /* even event */
@@ -619,31 +621,16 @@ body {
   }
 }
 
-.credits {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  text-align: center;
-  padding: 10px;
-  font-size: 12px;
-  color: #fff;
-  background-color: #b38add;
-}
-.credits a {
-  color: #fff;
-  text-decoration: none;
-  font-weight: 600;
-}
-.credits a:hover {
-  text-decoration: underline;
-}
 footer {
-  position: static;
-  background-color: #114e46;
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  bottom: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #114e46; /* Ajustez la couleur selon vos besoins. */
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 1000;
+  
 }
 .footer-columns {
   display: grid;
