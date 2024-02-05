@@ -1,9 +1,36 @@
+.bakground-box {
+  position: relative;
+  overflow: hidden;
+}
+
+.background-blue {
+  width: 100%; /* Ajustez la largeur selon vos besoins */
+  height: 200%; /* Ajustez la hauteur selon vos besoins */
+  object-fit: cover; /* Cela garantit que l'image couvre la totalité de la div */
+  position: fixed; /* Fixe l'image par rapport à la fenêtre */
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
 .nav-bar {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
   align-items: center;
   justify-items: center;
 }
+.barn {
+  background-color: #35605a;
+  font-size: 18px;
+  color: white;
+  font-weight: 500;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+ }
 
 .footer-columns {
   display: grid;
@@ -30,11 +57,16 @@
 }
 
 footer {
-  background-color: #114e46;
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
   position: absolute;
   bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #35605a;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  z-index: 1000;
+  padding-top: 15px;
+
 }
 hr {
   border-top: -2px solid white;
