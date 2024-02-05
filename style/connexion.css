@@ -71,6 +71,10 @@ li {
 
 .formulaire {
   background-color: #35605a;
+  border-radius: 8px;
+  background-color: #35605a;
+  width: fit-content;
+  margin-bottom: 20px;
 }
 .footer-columns {
   display: grid;
