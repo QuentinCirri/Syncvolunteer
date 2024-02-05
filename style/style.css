@@ -107,9 +107,6 @@ p {
   border-radius: 12px;
 }
 
-/*#imgone {
-  align-content: start;
-}*/
 .section-two ol {
   background-color: #d8e4ff;
   border-radius: 12px;
@@ -194,6 +191,14 @@ a {
   font-family: sans-serif;
 }
 
+@media screen and (max-width: 350px) {
+  footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 350px;
+  }
+}
 /*.link::after {
   content: "";
   display: block;
