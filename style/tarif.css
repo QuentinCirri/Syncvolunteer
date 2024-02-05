@@ -93,11 +93,12 @@ main {
   background-color: #35605a;
 }
 footer {
-  bottom: 0;
   background-color: #35605a;
+  left: 0;
+  bottom: 0;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
-  position: absolute;
+  width: 100%;
 }
 .footer-columns {
   display: grid;
