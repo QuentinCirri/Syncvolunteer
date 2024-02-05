@@ -45,6 +45,10 @@ select {
   align-items: center;
   justify-items: center;
 }
+.connect,
+.inscrire {
+  border: #d8e4ff solid 2px;
+}
 ul {
   list-style-type: none;
   display: flex;
