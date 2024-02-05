@@ -47,6 +47,8 @@ justify-content: space-around;
   background-color: #35605a;
   width: 50%;
   height: auto;
+  color: white;
+  border: 2px solid white;
 }
 main {
   display: flex;

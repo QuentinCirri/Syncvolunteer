@@ -22,7 +22,7 @@ select {
   width: 20px;
   font-size: 0.9rem;
   padding: 2px 5px;
-  background-color: #114e46;
+  background-color: #35605a;
 }
 .barn {
   background-color: #35605a;
@@ -76,19 +76,25 @@ main {
 .grid-container {
   display: grid;
   grid-template-columns: 33% 33% 33%;
+  gap: 15px;
+  width: auto;
 }
 .section-one {
   text-align: center;
+  background-color: #35605a;
+  
 }
 .section-two {
   text-align: center;
+  background-color: #35605a;
 }
 .section-three {
   text-align: center;
+  background-color: #35605a;
 }
 footer {
   bottom: 0;
-  background-color: #114e46;
+  background-color: #35605a;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   position: absolute;
