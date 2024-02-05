@@ -628,7 +628,7 @@ main {
 
 @media screen and (max-width: 768px) {
   footer {
-    position: fixed; /* ou position: absolute; */
+    position: absolute; /* ou position: absolute; */
     bottom: 0;
     width: 100%;
   }
