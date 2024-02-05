@@ -17,11 +17,16 @@
   z-index: -1;
 }
 
+label {
+  margin-right: 15px;
+  display: inline-block;
+}
 select {
+  display: inline-block;
   width: 20px;
   font-size: 0.9rem;
   padding: 2px 5px;
-  background-color: #114e46;
+  background-color: #35605a;
 }
 .barn {
   background-color: #35605a;
@@ -62,6 +67,10 @@ li {
   display: flex;
   align-items: center;
   color: #fff;
+}
+
+.formulaire {
+  background-color: #35605a;
 }
 .footer-columns {
   display: grid;
