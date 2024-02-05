@@ -75,6 +75,7 @@ main {
 .grid-buttons {
   display: grid;
   gap: 30px;
+  padding-top: 10%;
 }
 button {
   background-color: #35605a;
