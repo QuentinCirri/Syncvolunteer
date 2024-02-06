@@ -56,8 +56,9 @@ select {
   border: #d8e4ff solid 1px;
   border-radius: 5px;
   margin-left: 15px;
+  display: flex;
+  align-items: center;
 }
-
 
 .inscrire {
   border: #35605a solid 1px;
@@ -65,6 +66,8 @@ select {
   background: #d8e4ff;
   color: #35605a;
   margin-left: 15px;
+  display: flex;
+  align-items: center;
 }
 main {
   font-family: Arial, Helvetica, sans-serif;
@@ -75,7 +78,7 @@ main {
 .grid-container {
   display: grid;
   grid-template-columns: 33% 33% 33%;
-  gap: 15px;
+  gap: 5px;
   width: auto;
 }
 .section-one {
@@ -93,11 +96,14 @@ main {
 }
 footer {
   background-color: #35605a;
+  position: fixed;
   left: 0;
   bottom: 0;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   width: 100%;
+  align-items: start;
+  justify-items: start;
 }
 .footer-columns {
   display: grid;
