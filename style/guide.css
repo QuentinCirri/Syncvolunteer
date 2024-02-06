@@ -64,7 +64,7 @@ select {
 }
 
 .inscrire {
-  border: #00120B solid 1px;
+  border: #35605a solid 1px;
   border-radius: 5px;
   background: #d8e4ff;
   color: #35605a;
@@ -92,6 +92,7 @@ main {
 #carnet {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
+  border-radius: 0 44 44 0;
   display: grid;
   width: 35%;
   height: 782px;
@@ -113,6 +114,7 @@ main {
   grid-area: up;
   background-color: #d8e4ff;
   height: 260px;
+  border-radius: 0 44px 0 0;
 }
 
 #carnet > .page-milieu {
@@ -125,6 +127,7 @@ main {
   grid-area: down;
   background-color: #d8e4ff;
   height: 260px;
+  border-radius: 0 0 44px 0;
 }
 
 
