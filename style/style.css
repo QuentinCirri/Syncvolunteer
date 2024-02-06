@@ -138,6 +138,26 @@ p {
   grid-template-rows: 1fr 1fr;
 }
 
+.section-one p {
+  flex: 1;
+  margin-right: 30%; /* Espace entre le texte et l'image */
+  margin-left: 2%;
+}
+.section-two p {
+  flex: 1;
+  margin-right: 2%; /* Espace entre le texte et l'image */
+  margin-left: 30%;
+}
+.section-three p {
+  flex: 1;
+  margin-right: 30%; /* Espace entre le texte et l'image */
+  margin-left: 2%;
+}
+.section-fourth p {
+  flex: 1;
+  margin-right: 2%; /* Espace entre le texte et l'image */
+  margin-left: 30%;
+}
 .section-one,
 .section-two,
 .section-three,
@@ -150,6 +170,19 @@ p {
 .section-two-fourth {
   text-align: left;
   list-style: none;
+}
+
+.section-one img {
+  margin-right: 16.7%;
+}
+.section-two img {
+  margin-left: 15%;
+}
+.section-three img {
+  margin-right: 15%;
+}
+.section-fourth img {
+  margin-left: 11.5%;
 }
 
 .section-one img,
