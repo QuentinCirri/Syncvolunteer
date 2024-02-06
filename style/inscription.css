@@ -68,6 +68,9 @@ li {
   color: #fff;
 }
 
+.langues-choix {
+  display: flex;
+}
 main {
   width: auto;
   height: auto;
@@ -116,6 +119,7 @@ label {
   font-weight: 300;
   color: #fff;
   font-family: Arial, sans-serif;
+  padding-right: 15px;
 }
 
 input {
@@ -148,7 +152,6 @@ footer {
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   width: 100%;
-  position: absolute;
 }
 .footer-columns {
   display: grid;
