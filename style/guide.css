@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .bakground-box {
   position: relative;
   overflow: hidden;
@@ -12,11 +17,11 @@
   left: 0;
   z-index: -1;
 }
-.nav-bar {
-  display: grid;
-  grid-template-columns: repeat(7, 1fr);
-  align-items: center;
-  justify-items: center;
+select {
+  width: 20px;
+  font-size: 0.9rem;
+  padding: 2px 5px;
+  background-color: #114e46;
 }
 .barn {
   background-color: #35605a;
@@ -24,21 +29,27 @@
   color: white;
   font-weight: 500;
   text-decoration: none;
+  width: auto;
   font-family: Arial, Helvetica, sans-serif;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 1000;
- }
- select {
-  width: 20px;
-  font-size: 0.9rem;
-  padding: 2px 5px;
-  background-color: #35605a;
+  position: relative;
 }
 
-.connect{
+.logo-box img {
+  width: 120px;
+  height: 110px;
+}
+.nav-bar {
+  display: grid;
+  grid-template-columns: repeat(11, 1fr);
+  align-items: center;
+  justify-items: center;
+}
+
+.conect-inscription {
+  display: flex;
+  font-size: 16px;
+}
+.connect {
   background-color: #35605a;
   color: white;
   border: #d8e4ff solid 1px;
