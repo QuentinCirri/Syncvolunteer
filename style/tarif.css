@@ -22,7 +22,7 @@ select {
   width: 20px;
   font-size: 0.9rem;
   padding: 2px 5px;
-  background-color: #35605a;
+  background-color: #114e46;
 }
 .barn {
   background-color: #35605a;
@@ -35,37 +35,32 @@ select {
   position: relative;
 }
 
-.nav-bar {
-  display: grid;
-  grid-template-columns: repeat(7, 1fr);
-  align-items: center;
-  justify-items: center;
-}
 .logo-box img {
   width: 120px;
   height: 110px;
 }
 .nav-bar {
-  display: flex;
-  width: 100vw;
-  max-width: 100%;
-  height: 110px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
   align-items: center;
-  justify-content: space-around;
+  justify-items: center;
 }
-ul {
-  list-style-type: none;
+
+.conect-inscription {
   display: flex;
-  float: right;
+  font-size: 16px;
 }
-li {
-  margin-top: 15px;
-  margin-left: 20px;
+.connect {
+  background-color: #35605a;
+  color: white;
+  border: #d8e4ff solid 1px;
+  border-radius: 5px;
 }
-.nav-bar a {
-  display: flex;
-  align-items: center;
-  color: #fff;
+.inscrire {
+  border: #35605a solid 1px;
+  border-radius: 5px;
+  background: #d8e4ff;
+  color: #35605a;
 }
 main {
   font-family: Arial, Helvetica, sans-serif;
