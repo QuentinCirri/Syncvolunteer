@@ -117,86 +117,61 @@ select {
 
 main {
   font-family: Arial, Helvetica, sans-serif;
-  width: 1008px;
+  width: 100vw;
   height: auto;
-  padding: 20px; /* Ajoutez de la marge intérieure pour un meilleur aspect */
+  padding-top: 5%; 
 }
 
-p {
+.row-one,
+.row-two,
+.row-tree,
+.row-fourth {
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+  align-items: center;
+  justify-items: center;
+  margin-bottom: 10%;
+  
+}
+
+.content {
+  background-color: #35605a;
+  border-radius: 5px;
+  max-width: 500px; /* Définir la largeur maximale */
+  max-height: 300px; /* Définir la hauteur maximale */
+  padding: 20px; /* Ajouter un remplissage pour l'espace intérieur */
+  overflow: auto; 
+}
+
+.row-one p,
+.row-one h2,
+.row-two p,
+.row-two h2,
+.row-tree p,
+.row-tree h2,
+.row-fourth p,
+.row-fourth h2 {
+  max-width: 75%;
+  margin: auto; /* Centrer horizontalement */
+  place-self: center; /* Centrer verticalement */
+}
+
+.row-one img,
+.row-two img,
+.row-tree img,
+.row-fourth img {
+  max-width: 100%;
+}
+
+/*p {
   background-color: #d8e4ff;
   line-height: 2em;
   color: black;
   border-radius: 12px;
-}
+}*/
 
-.section-two ol {
-  background-color: #d8e4ff;
-  border-radius: 12px;
-}
-
-.section-two-fourth {
-  background-color: #d8e4ff;
-  border-radius: 12px;
-}
-.grid-container {
-  display: grid;
-  grid-template-rows: 1fr 1fr;
-}
-
-.section-one p {
-  flex: 1;
-  margin-right: 20%; /* Espace entre le texte et l'image */
-  margin-left: 10%;
-}
-.section-two p {
-  flex: 1;
-  margin-right: 2%; /* Espace entre le texte et l'image */
-  margin-left: 20%;
-}
-.section-three p {
-  flex: 1;
-  margin-right: 20%; /* Espace entre le texte et l'image */
-  margin-left: 10%;
-}
-.section-fourth p {
-  flex: 1;
-  margin-right: 2%; /* Espace entre le texte et l'image */
-  margin-left: 20%;
-}
-.section-one,
-.section-two,
-.section-three,
-.section-fourth {
-  align-items: center;
-  text-align: center;
-  display: flex;
-  margin-top: 10%;
-}
-/* Pour la liste ol du dernier paragraphe */
-.section-two-fourth {
-  text-align: left;
-  list-style: none;
-}
-
-.section-one img {
-  margin-right: 16.7%;
-}
-.section-two img {
-  margin-left: 25%;
-}
-.section-three img {
-  margin-right: 15%;
-}
-.section-fourth img {
-  margin-left: 21.5%;
-}
-
-.section-one img,
-.section-two img {
-  max-width: 100%;
-  border: #35605a solid 2px;
-  border-radius: 50px;
-}
 .renvoi-tarif {
   margin-top: 130px;
   background-color: #468D80;
@@ -212,6 +187,7 @@ p {
 .bouton {
   display: flex;
   justify-content: center;
+  margin-bottom: 10%;
 }
 .footer-columns {
   display: grid;
