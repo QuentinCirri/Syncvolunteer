@@ -84,15 +84,18 @@ main {
 .section-one {
   text-align: center;
   background-color: #35605a;
+  border-radius: 0 44px 44px 0;
   
 }
 .section-two {
   text-align: center;
   background-color: #35605a;
+  border-radius: 0 44px 44px 0;
 }
 .section-three {
   text-align: center;
   background-color: #35605a;
+  border-radius: 0 44px 44px 0;
 }
 footer {
   background-color: #35605a;
