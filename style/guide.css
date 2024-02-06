@@ -88,7 +88,23 @@ main {
   
 }
 
+p {
+  margin: 0; /* Supprime les marges par défaut */
+  max-width: 800px; /* Limite la largeur maximale */
+  text-align: justify; /* Justifie le texte */
+}
 
+/* Styles spécifiques pour différentes sections */
+.page-haut p,
+.page-bas p,
+.page-milieu p {
+  font-size: 16px; 
+  padding: 7%;
+}
+
+.page-bas p {
+  font-style: bold;
+}
 #carnet {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
