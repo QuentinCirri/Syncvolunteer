@@ -135,12 +135,20 @@ main {
   margin-bottom: 10%;
   
 }
+.row-one,
+.row-tree{
+  padding-left: 5%;
+}
 
+.row-two,
+.row-fourth {
+  padding-right: 5%;
+}
 .content {
   background-color: #35605a;
   border-radius: 5px;
   max-width: 500px; /* Définir la largeur maximale */
-  max-height: 300px; /* Définir la hauteur maximale */
+  max-height: 308px; /* Définir la hauteur maximale */
   padding: 20px; /* Ajouter un remplissage pour l'espace intérieur */
   overflow: auto; 
 }
