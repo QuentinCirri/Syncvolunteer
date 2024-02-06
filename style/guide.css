@@ -52,7 +52,6 @@ select {
 .conect-inscription {
   display: flex;
   font-size: 16px;
-  flex-direction: row;
 }
 .connect {
   background-color: #35605a;
@@ -60,15 +59,18 @@ select {
   border: #d8e4ff solid 1px;
   border-radius: 5px;
   margin-left: 15px;
+  display: flex;
+  align-items: center;
 }
 
-
 .inscrire {
-  border: #35605a solid 1px;
+  border: #00120B solid 1px;
   border-radius: 5px;
   background: #d8e4ff;
   color: #35605a;
   margin-left: 15px;
+  display: flex;
+  align-items: center;
 }
 
 main {
