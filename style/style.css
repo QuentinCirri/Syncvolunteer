@@ -45,9 +45,22 @@ select {
   align-items: center;
   justify-items: center;
 }
-.connect,
+
+.conect-inscription {
+  display: flex;
+  font-size: 12px;
+}
+.connect {
+  background-color: #35605a;
+  color: white;
+  border: #d8e4ff solid 1px;
+  border-radius: 5px;
+}
 .inscrire {
-  border: #d8e4ff solid 2px;
+  border: #35605a solid 1px;
+  border-radius: 5px;
+  background: #d8e4ff;
+  color: #35605a;
 }
 ul {
   list-style-type: none;
@@ -168,7 +181,7 @@ p {
 }
 
 .footer-column a {
-  display: block; /* Pour empêcher les liens de s'étendre sur toute la largeur */
+  display: block;
   margin-top: 25px;
 }
 
