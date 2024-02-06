@@ -58,7 +58,6 @@ select {
   margin-left: 15px;
 }
 
-
 .inscrire {
   border: #35605a solid 1px;
   border-radius: 5px;
@@ -141,23 +140,23 @@ p {
 
 .section-one p {
   flex: 1;
-  margin-right: 30%; /* Espace entre le texte et l'image */
-  margin-left: 2%;
+  margin-right: 20%; /* Espace entre le texte et l'image */
+  margin-left: 10%;
 }
 .section-two p {
   flex: 1;
   margin-right: 2%; /* Espace entre le texte et l'image */
-  margin-left: 30%;
+  margin-left: 20%;
 }
 .section-three p {
   flex: 1;
-  margin-right: 30%; /* Espace entre le texte et l'image */
-  margin-left: 2%;
+  margin-right: 20%; /* Espace entre le texte et l'image */
+  margin-left: 10%;
 }
 .section-fourth p {
   flex: 1;
   margin-right: 2%; /* Espace entre le texte et l'image */
-  margin-left: 30%;
+  margin-left: 20%;
 }
 .section-one,
 .section-two,
@@ -166,6 +165,7 @@ p {
   align-items: center;
   text-align: center;
   display: flex;
+  margin-top: 10%;
 }
 /* Pour la liste ol du dernier paragraphe */
 .section-two-fourth {
@@ -177,13 +177,13 @@ p {
   margin-right: 16.7%;
 }
 .section-two img {
-  margin-left: 15%;
+  margin-left: 25%;
 }
 .section-three img {
   margin-right: 15%;
 }
 .section-fourth img {
-  margin-left: 11.5%;
+  margin-left: 21.5%;
 }
 
 .section-one img,
