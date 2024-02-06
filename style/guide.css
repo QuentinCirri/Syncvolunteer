@@ -34,6 +34,10 @@ select {
   position: relative;
 }
 
+.langue-choix {
+  display: flex;
+  flex-direction: row;
+}
 .logo-box img {
   width: 120px;
   height: 110px;
@@ -48,6 +52,7 @@ select {
 .conect-inscription {
   display: flex;
   font-size: 16px;
+  flex-direction: row;
 }
 .connect {
   background-color: #35605a;
@@ -83,36 +88,44 @@ main {
 
 
 #carnet {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
   display: grid;
-  width: 100%;
-  height: 250px;
+  width: 35%;
+  height: 782px;
   grid-template-areas:
     "img up"
     "img mid"
     "img down";
-  grid-template-rows: 150px 1fr 30px;
+  grid-template-rows: 1fr 1fr 1fr;
   grid-template-columns: 36px 1fr;
 }
 
 #carnet > .img-grid {
   grid-area: img;
-  background-color: #8ca0ff;
+  background-color: #d8e4ff;
+  height: 782px;
 }
 
 #carnet > .page-haut {
   grid-area: up;
-  background-color: #ffa08c;
+  background-color: #d8e4ff;
+  height: 260px;
 }
 
 #carnet > .page-milieu {
   grid-area: mid;
-  background-color: #ffff64;
+  background-color: #d8e4ff;
+  height: 260px;
 }
 
 #carnet > .page-bas {
   grid-area: down;
-  background-color: #8cffa0;
+  background-color: #d8e4ff;
+  height: 260px;
 }
+
+
 
 .footer-columns {
   display: grid;

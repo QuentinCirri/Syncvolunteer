@@ -192,8 +192,14 @@ p {
   border: #35605a solid 2px;
   border-radius: 50px;
 }
-.bouton {
+.renvoi-tarif {
   margin-top: 130px;
+  background-color: #468D80;
+  border: #35605a solid 5px;
+  color: #fff;
+  border-radius: 45px;
+  max-width: 580px;
+  max-height: 138px;
 }
 
 .footer-columns {
