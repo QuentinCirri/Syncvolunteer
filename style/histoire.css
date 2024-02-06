@@ -48,12 +48,16 @@ justify-content: space-around;
   color: white;
   border: #d8e4ff solid 1px;
   border-radius: 5px;
+  margin-left: 15px;
 }
+
+
 .inscrire {
   border: #35605a solid 1px;
   border-radius: 5px;
   background: #d8e4ff;
   color: #35605a;
+  margin-left: 15px;
 }
 
 select {
