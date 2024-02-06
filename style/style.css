@@ -200,8 +200,14 @@ p {
   border-radius: 45px;
   max-width: 580px;
   max-height: 138px;
-}
+  font-size: 40px;
+  font-weight: 500;
 
+}
+.bouton {
+  display: flex;
+  justify-content: center;
+}
 .footer-columns {
   display: grid;
   justify-content: space-between;
